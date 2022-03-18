@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7E678D5-E7A0-38FB-D755-57880B890DB3" name="Equipamiento">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>D8E5AE3E-ABA8-AA41-C586-7B4124E98256</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Equipamiento" id="8B6C8952-A5D7-EB4B-9538-34957BC057CE">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>EB7FD382-C488-C567-1CAF-E503935531CA</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="6BB3D2B8-78A7-40A7-35CE-96A4FB5DAAE2">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>2E5E3598-2CE9-3D4B-82F7-08446C5F2FD2</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipamiento_Base_Equipamiento_Base_ID" id="4FA1CD0F-6711-A6AE-99CC-20EFB1F44242">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F7942EB-9D79-20CF-DF54-CB9E0ABC6B9A" referredColumn="B4A6298F-915D-784F-0B70-65D813303DE6"/>
+</associations>
+</Column>
+<Column name="Equipmiento_Adicional_Equipmiento_Adicional_ID" id="9A8AB356-39C0-953D-B30D-395B47656502">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF56D274-38C2-A66B-0EFA-762088FCDC71" referredColumn="30E09737-A836-79B9-82E4-5D7614BF979D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E06ADA5B-7E72-E3AD-D287-DE5A891C3A1B" name="Equipamiento_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>E6EEDAFF-8C61-A4E1-7E3B-52920E66BD19</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B6C8952-A5D7-EB4B-9538-34957BC057CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81678531-B398-6A3F-92CF-C200142275C1" name="Equipamiento_Equipamiento_Base_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>2D5FFAB3-49C0-AFCA-A0C8-3A62A94B07FB</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FA1CD0F-6711-A6AE-99CC-20EFB1F44242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43D92999-B8F4-29A6-F5D1-561628BBDDBE" name="Equipamiento_Equipmiento_Adicional_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>D8221284-4363-ACBB-093A-F32568517FA5</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A8AB356-39C0-953D-B30D-395B47656502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

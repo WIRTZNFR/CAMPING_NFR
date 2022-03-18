@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F099968F-F528-7916-691A-05E59AE1610D" name="Bungalows">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>6D580546-F164-9854-8E68-84248AE4C40F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_bungalow" id="E5412326-97BB-1AD0-2400-A6F7836D89A9">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre del tipo de bungalow]]></commentInRDBMS>
+<generatorID>D5AAD6C3-A510-E51C-34AE-17274C708F79</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tamano" id="CA222F19-407C-DCD4-1446-7FA28F85A6A3">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tamano en metros cuadrados]]></commentInRDBMS>
+<generatorID>A64B5134-11D3-ADE0-D0FF-558245F75CA4</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_personas" id="7DB56A94-A4A5-E4CF-03EA-57CD2D6A84E3">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Capacidad de persoas]]></commentInRDBMS>
+<generatorID>99825761-4D03-5079-D5B3-AF5F93815DF6</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipamiento_Id_Equipamiento" id="8E8DCE9B-BCE4-FB19-1498-BF2415C004AC">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>329527F0-46DB-2E0D-E51F-7E7F62067010</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78C4191A-B075-AC80-1F47-6E7EAB5710BD" referredColumn="8B6C8952-A5D7-EB4B-9538-34957BC057CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2A0B26C-28B2-E685-9867-DACEAC08B1C1" name="Bungalows_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>458A424C-BCEB-8EBD-BAAD-41F32BBAF82A</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5412326-97BB-1AD0-2400-A6F7836D89A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD2AB228-40E2-A7AC-1721-B006207076D9" name="Bungalows_Equipamiento_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>5F0233AB-BC2A-DE35-C0D0-DAB6543AFD1F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E8DCE9B-BCE4-FB19-1498-BF2415C004AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

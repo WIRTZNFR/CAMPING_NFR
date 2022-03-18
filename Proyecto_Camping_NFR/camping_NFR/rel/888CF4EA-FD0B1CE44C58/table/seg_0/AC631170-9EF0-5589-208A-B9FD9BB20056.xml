@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC631170-9EF0-5589-208A-B9FD9BB20056" name="Localidad">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>D784ECC4-7C22-5B07-A603-C7B81A9948FF</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Localidad" id="AB062CFA-0E9F-ACEC-D4AD-4BEA7C176A13">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>BCBDBB9B-E37B-EBDA-BAF1-5EDA8DD3928F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Localidad" id="17A68101-BBE7-3B77-DDB2-2273AEDFC302">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>3D5BF97F-D159-6856-59EC-E6A65DC6CCF3</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Provincia_Id_Provincia" id="6BC4E0DB-9855-F241-D9CF-807620F47618">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>D5ED104E-F53F-F37F-32FA-0BDD86B403D7</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06BA9E21-E25D-4868-DB09-20B4FFCD53E0" referredColumn="E25175ED-A96D-D348-E3C9-70A5211D9727"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A072FD86-5CE2-8C6F-EE74-8E77B8D1BC4B" name="Localidad_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>A965F278-7486-A185-6785-6DEF7AF0E88E</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB062CFA-0E9F-ACEC-D4AD-4BEA7C176A13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C825E301-527E-0D89-583A-17A7A9EACCB0" name="Localidad_Provincia_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>70ED3840-9C16-5213-D127-ED406C5B1B6A</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BC4E0DB-9855-F241-D9CF-807620F47618"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

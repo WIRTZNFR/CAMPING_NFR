@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="03E0F86A-C18A-14F7-4593-CA2D0813C6BC" name="Seguro">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>102D0A99-27DE-811E-FB3D-80CD67F0C370</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_seguro" id="9207F7EC-FF5E-9B04-CDC3-E6A8687BF9E3">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>F74E9A12-750B-7524-24BB-87AA1A5F6A12</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Poliza" id="959783B1-E713-FF40-7E72-37F0B3BB7CB1">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>ECEBA4B7-7037-4E46-5BAC-ED9E6FA9A0F3</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Precio" id="6BE766CD-1F8A-BC18-BA76-E2FA966A30DF">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>9697E2FC-23A0-D920-A5B8-3A870F5B4AF7</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coberturas" id="5D3DA6E6-BDFA-EE30-58F7-1BCD6A6C74FB">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>6337AD4C-684A-AA2E-8D42-20C4FDC6BD22</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reserva_Id_reserva" id="B07A4241-F4BC-F1E2-FFA1-BF1886A1FAD9">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>00357CF5-E902-0B7B-43B3-2B81A51F65C5</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB9A834-22A3-347C-01C6-CBA531F9BD25" referredColumn="1FD5ED81-94B6-699F-526C-014617468A55"/>
+</associations>
+</Column>
+<Column name="Reserva_Id_parcela" id="3D0EE27A-3A34-DF6C-4B4F-168B44194FFB">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>F87B8234-ED9F-64AD-3D1D-184BBBB49B36</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB9A834-22A3-347C-01C6-CBA531F9BD25" referredColumn="7DA50AB5-519D-1707-B1A8-E0D58DC88FE0"/>
+</associations>
+</Column>
+<Column name="Reserva_Id_bungalow" id="6A3CEAAE-4BAB-EBEC-8FAD-D73BEC8C3225">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>8A139EC5-79EF-2DE7-3EBC-237A4F7D8EE8</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DB9A834-22A3-347C-01C6-CBA531F9BD25" referredColumn="51C4F1A8-57BD-9758-1A18-C62925CD14D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C9CEA5C-BA37-C0A5-BE51-A44309ECA8BA" name="Seguro_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>BB189FFE-3777-BFFE-7633-18DE998D8305</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9207F7EC-FF5E-9B04-CDC3-E6A8687BF9E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="322EBCB2-7C41-7423-3D4F-C4EEC50CE7DE" name="Seguro__IDX">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DF92C89C-CEAB-1213-CD23-3E818D87D1A0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B07A4241-F4BC-F1E2-FFA1-BF1886A1FAD9"/>
+<colUsage columnID="3D0EE27A-3A34-DF6C-4B4F-168B44194FFB"/>
+<colUsage columnID="6A3CEAAE-4BAB-EBEC-8FAD-D73BEC8C3225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DFAFEBB4-8E4C-B288-80B2-7A67B81611E2" name="Seguro_Reserva_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>DF92C89C-CEAB-1213-CD23-3E818D87D1A0</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B07A4241-F4BC-F1E2-FFA1-BF1886A1FAD9"/>
+<colUsage columnID="3D0EE27A-3A34-DF6C-4B4F-168B44194FFB"/>
+<colUsage columnID="6A3CEAAE-4BAB-EBEC-8FAD-D73BEC8C3225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

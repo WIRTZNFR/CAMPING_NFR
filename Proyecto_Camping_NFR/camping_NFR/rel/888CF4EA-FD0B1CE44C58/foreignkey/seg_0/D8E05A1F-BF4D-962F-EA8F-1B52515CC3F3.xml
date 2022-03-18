@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8E05A1F-BF4D-962F-EA8F-1B52515CC3F3" containerWithKeyObject="CA9082C2-8365-D19F-CD14-9F0DFC748A7D" localFKIndex="7ACC1BCB-17DB-C62B-08D1-6D9A3FA314A4" name="Puesto_Empleados_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>421C2D80-92A4-9E84-EAAD-20DB3A9EED2D</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<referredTableLongName>Empleados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AA7AB118-6366-FA6F-BB57-9D69FB369A04</referredTableID>
+<keyObject>5D598ED9-03E6-E871-518F-EE13F09E225E</keyObject>
+<referredKeyID>5D598ED9-03E6-E871-518F-EE13F09E225E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_empleado</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60229677-FFC4-B398-3A72-6BEFC48F50BF" name="Opinion">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-15 19:47:58 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Opinion" id="4C2E80F9-D083-0E18-4559-6DEFB1F253F1">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-15 19:48:08 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estrellas" id="C24CBEE5-7D3A-6422-C033-0FD76E19ABC5">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-15 19:48:26 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comentario" id="8B18F2C7-E67A-713A-1BE2-3A3425375D03">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-15 19:48:40 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Cliente" id="87AD20C9-47EA-9C43-0B35-3606ED9FE3E9">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-15 19:49:14 UTC</createdTime>
+<generatorID>945FBF47-D177-2E7D-2E80-84E9EDBB748F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>CE358E0B-596B-7A1F-8840-F617CEC5E5DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF31D7EC-FCD5-55BE-27F7-5C7F143F2D0C" name="Opinion PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-15 19:48:21 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C2E80F9-D083-0E18-4559-6DEFB1F253F1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="427DB96B-441D-04F9-16AD-BC0152E6D798" name="Clientes">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>D084496C-5505-F155-B0C4-E40788DB7EBC</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Cliente" id="B4EC29A7-0C1E-7E53-722B-A75DC1BDF768">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>CE358E0B-596B-7A1F-8840-F617CEC5E5DA</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="45C35A6E-7200-154D-AB05-CDD89329D462">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>54B5B4D7-F566-46FE-1259-EEB3CFBBE24E</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="2A500F66-4C58-9958-0FE0-20E9A62532EA">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>1382E8FE-D5D7-3060-598D-4869E2855CE6</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido1" id="001B3911-884B-9966-CDDA-BB043CFDD328">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>89C3B510-33E2-48F5-AB2C-663938FD1C4F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido2" id="CEDB74A6-2C8B-A4CA-E6FF-92C1989E24F6">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>06E22709-AA71-0626-A316-B451F54DE7CC</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="EF115ED6-67AF-1DD5-904F-8C11B7CEA5CC">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>F6398871-F54C-DC80-DD7F-3458A89DD666</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="F0ACF5FF-B4D3-9871-B36A-C612EF0340D9">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>18FA857D-6993-ED21-4470-B582CB803C43</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion_Id_Direccion" id="10622B5A-D797-893A-E76A-3F3573A870C2">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>495A622E-7CD0-315B-E868-9FD7FE719602</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86855E73-EE1A-4F4B-53B9-F821710D1B8A" referredColumn="542E197C-C37E-96DE-5DD0-93D787294572"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="178379B3-DD73-CE3B-54AE-9760D4637985" name="Clientes_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:08 UTC</createdTime>
+<generatorID>0AC4928A-D143-25D5-D81D-2020BF8D5984</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EC29A7-0C1E-7E53-722B-A75DC1BDF768"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10F6F247-8A21-1A07-C461-3F18F5A35F1E" name="Clientes_Direccion_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>3A38948D-1317-A615-158C-909E815299ED</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10622B5A-D797-893A-E76A-3F3573A870C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

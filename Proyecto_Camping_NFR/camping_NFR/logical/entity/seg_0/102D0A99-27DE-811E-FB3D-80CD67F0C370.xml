@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="102D0A99-27DE-811E-FB3D-80CD67F0C370" name="Seguro">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:41:27 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_seguro" id="F74E9A12-750B-7524-24BB-87AA1A5F6A12">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:42:43 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_Poliza" id="ECEBA4B7-7037-4E46-5BAC-ED9E6FA9A0F3">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:43:07 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="9697E2FC-23A0-D920-A5B8-3A870F5B4AF7">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:43:40 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Coberturas" id="6337AD4C-684A-AA2E-8D42-20C4FDC6BD22">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:43:51 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_reserva" id="00357CF5-E902-0B7B-43B3-2B81A51F65C5">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:44:24 UTC</createdTime>
+<generatorID>DF92C89C-CEAB-1213-CD23-3E818D87D1A0</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>C046B870-ACF5-C7C9-40EC-5FAAD0ED0917</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_parcela" id="F87B8234-ED9F-64AD-3D1D-184BBBB49B36">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:44:24 UTC</createdTime>
+<generatorID>DF92C89C-CEAB-1213-CD23-3E818D87D1A0</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>ACBD881C-0F51-F49E-AA39-6D1A69A3EC45</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_bungalow" id="8A139EC5-79EF-2DE7-3EBC-237A4F7D8EE8">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 21:29:27 UTC</createdTime>
+<generatorID>DF92C89C-CEAB-1213-CD23-3E818D87D1A0</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>0276B1E3-A74A-DB02-1E7D-6826FF9C76E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB189FFE-3777-BFFE-7633-18DE998D8305" name="Seguro PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:42:52 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F74E9A12-750B-7524-24BB-87AA1A5F6A12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

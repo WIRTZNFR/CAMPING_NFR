@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_27" directorySegmentName="seg_0" id="C11ED4B3-366B-5742-5D05-6D0EFED01447">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:12:57 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>D4BB96AA-029D-AF3F-6305-0A1C615731CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>11E3355F-402C-02B0-5CF5-94DEC350AC4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9665B962-83B0-F626-2466-DA35C69571D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

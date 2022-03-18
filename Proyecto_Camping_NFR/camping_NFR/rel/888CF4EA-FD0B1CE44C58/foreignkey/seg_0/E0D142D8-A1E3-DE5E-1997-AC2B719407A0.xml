@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0D142D8-A1E3-DE5E-1997-AC2B719407A0" containerWithKeyObject="0CD77E43-80BF-DC47-5ADB-726056F80969" localFKIndex="BD148382-E11B-0E21-48B8-782C68834F94" name="Forma_pago_Taansferencia_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>2E6C4C04-0512-E2E4-B0D7-A6C4D936BF95</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<referredTableLongName>Taansferencia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF38FDA6-9F38-9E72-978F-28F874AC1779</referredTableID>
+<keyObject>6631E277-C572-9BC6-E43E-D0084BC4242A</keyObject>
+<referredKeyID>6631E277-C572-9BC6-E43E-D0084BC4242A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Num_cuenta</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

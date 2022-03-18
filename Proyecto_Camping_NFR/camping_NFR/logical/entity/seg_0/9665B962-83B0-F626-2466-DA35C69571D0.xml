@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9665B962-83B0-F626-2466-DA35C69571D0" name="Reserva">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:17:56 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_reserva" id="C046B870-ACF5-C7C9-40EC-5FAAD0ED0917">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:18:12 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_entrada" id="6A0D5006-C4F9-4C11-E7E5-A1096411DFE9">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:18:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha entrada]]></commentInRDBMS>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_salida" id="F872E824-4E42-5CDB-0CC4-0E7B48BC4601">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:19:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fechas salida]]></commentInRDBMS>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_parcela" id="ACBD881C-0F51-F49E-AA39-6D1A69A3EC45">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:22:00 UTC</createdTime>
+<generatorID>8B018D80-5BE0-B948-F96B-83322ECDE7CD</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>80BBA089-367C-C74A-304C-485CED855DD3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_bungalow" id="0276B1E3-A74A-DB02-1E7D-6826FF9C76E6">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:22:56 UTC</createdTime>
+<generatorID>C579532B-6ED6-1E67-1E08-DCDA45B2DF01</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>D5AAD6C3-A510-E51C-34AE-17274C708F79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_seguro" id="548111C1-5177-567B-D58A-5CA85F973676">
+<createdBy>NFR</createdBy>
+<createdTime>2022-02-02 20:44:29 UTC</createdTime>
+<generatorID>DF92C89C-CEAB-1213-CD23-3E818D87D1A0</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>F74E9A12-750B-7524-24BB-87AA1A5F6A12</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Cliente" id="10950790-76B4-02DA-F5A8-BD079D19F480">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:07:40 UTC</createdTime>
+<generatorID>62AB640E-AACA-9CAF-1672-D3BFFA904C08</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>CE358E0B-596B-7A1F-8840-F617CEC5E5DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_huesped" id="B3AB6176-5629-9DCA-2FE5-CA23D4C0C473">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:12:57 UTC</createdTime>
+<generatorID>C11ED4B3-366B-5742-5D05-6D0EFED01447</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>11996DE6-2E7B-1A94-FDAC-0CFAE86904EA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40CCDBB8-CC50-3C28-61EB-ECCF61C56043" name="Reserva PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 19:18:21 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C046B870-ACF5-C7C9-40EC-5FAAD0ED0917</attributeRef>
+<attributeRef>ACBD881C-0F51-F49E-AA39-6D1A69A3EC45</attributeRef>
+<attributeRef>0276B1E3-A74A-DB02-1E7D-6826FF9C76E6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

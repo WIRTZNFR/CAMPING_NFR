@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA9082C2-8365-D19F-CD14-9F0DFC748A7D" name="Puesto">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>08536F6B-36CD-88B8-DD1E-D175CCEC064C</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Puesto" id="2B22846D-B99C-1398-FFDE-3427CF70AB3A">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>49043D16-9262-9296-37F3-E4DFCC821635</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salario" id="E4800E7A-535B-78CF-C813-AB869AD1CFDA">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>BAB346AD-AA1D-DE8F-9627-75596B8ED222</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descrpcion" id="76A5DFBD-EE0B-0A75-2AF4-78C33D3AFA19">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>F97370D6-2E6D-9E2D-ADF7-2048DC2028B1</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleados_Id_empleado" id="C6C53C25-8853-B356-0086-8263EAD91D1B">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>AABE9EFB-E4B9-CE0F-6B40-0095F1946C93</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8E05A1F-BF4D-962F-EA8F-1B52515CC3F3" referredColumn="91564ED5-312A-2068-FEC5-FE2CC080FB04"/>
+</associations>
+</Column>
+<Column name="Instalaciones_Id_instalacion" id="85F5FA1F-4F9D-B22B-7986-F5557234BA87">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>35C294A4-A905-B35A-4C90-B3C2BF85D711</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B41FE054-4820-B13E-7608-6A6811D79F4E" referredColumn="F1F742A2-E0E2-6480-720C-4AA756EBE7A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="708D4EDF-C663-A406-DF21-8122FC430860" name="Puesto_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>B878227C-B145-6FDF-DED5-8D26D683136E</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B22846D-B99C-1398-FFDE-3427CF70AB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7ACC1BCB-17DB-C62B-08D1-6D9A3FA314A4" name="Puesto_Empleados_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>421C2D80-92A4-9E84-EAAD-20DB3A9EED2D</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6C53C25-8853-B356-0086-8263EAD91D1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC7AACC2-1EE4-1EC3-B8C3-EBBAA12147D0" name="Puesto_Instalaciones_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>43AC783C-827C-88D2-4F5D-BEE2827D9F46</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F5FA1F-4F9D-B22B-7986-F5557234BA87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

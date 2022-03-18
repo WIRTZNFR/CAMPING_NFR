@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23B64756-4FBE-21FE-99F2-6637CDFE2DCD" containerWithKeyObject="685AEDA8-47E9-6364-E913-F9B1FFED090C" localFKIndex="B80576E3-11B9-03EE-9971-8B932C51B8D4" name="Reserva_Clientes_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>62AB640E-AACA-9CAF-1672-D3BFFA904C08</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<referredTableLongName>Clientes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>427DB96B-441D-04F9-16AD-BC0152E6D798</referredTableID>
+<keyObject>178379B3-DD73-CE3B-54AE-9760D4637985</keyObject>
+<referredKeyID>178379B3-DD73-CE3B-54AE-9760D4637985</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Cliente</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

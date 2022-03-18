@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B2C26F55-5B96-732A-6169-0315C22D0B49" containerWithKeyObject="AEB85F64-6683-C25A-8EEA-1D2F340585FC" localFKIndex="A43BA14E-D245-B3A7-DA2E-71A602090287" name="Factura_Forma_pago_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>71FED9CC-88DA-DDD0-690C-7170459F78BC</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<referredTableLongName>Forma_pago</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0CD77E43-80BF-DC47-5ADB-726056F80969</referredTableID>
+<keyObject>38D57941-FA2B-0CDD-C388-2EED1EA33800</keyObject>
+<referredKeyID>38D57941-FA2B-0CDD-C388-2EED1EA33800</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_pago</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

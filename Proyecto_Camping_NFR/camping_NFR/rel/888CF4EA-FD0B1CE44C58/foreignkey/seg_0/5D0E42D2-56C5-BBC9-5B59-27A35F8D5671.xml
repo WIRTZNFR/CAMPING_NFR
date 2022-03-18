@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D0E42D2-56C5-BBC9-5B59-27A35F8D5671" containerWithKeyObject="0CD77E43-80BF-DC47-5ADB-726056F80969" localFKIndex="C5DAB468-2A50-4471-770F-9EFD369DDA7B" name="Forma_pago_Tarjeta_credito_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>869B9251-5116-FC53-B719-BAA1F320E39A</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<referredTableLongName>Tarjeta_credito</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AD629328-A9BA-12B9-D6A9-709EE07FA5FA</referredTableID>
+<keyObject>2D6F68ED-CF31-9D48-62DC-31CBCF1ADD3D</keyObject>
+<referredKeyID>2D6F68ED-CF31-9D48-62DC-31CBCF1ADD3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numero_tarjeta</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

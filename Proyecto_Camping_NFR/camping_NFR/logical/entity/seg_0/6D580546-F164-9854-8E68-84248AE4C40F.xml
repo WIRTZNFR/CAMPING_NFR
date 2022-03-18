@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D580546-F164-9854-8E68-84248AE4C40F" name="Bungalows">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 18:53:58 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_bungalow" id="D5AAD6C3-A510-E51C-34AE-17274C708F79">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 18:55:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre del tipo de bungalow]]></commentInRDBMS>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tamano" id="A64B5134-11D3-ADE0-D0FF-558245F75CA4">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 18:58:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tamano en metros cuadrados]]></commentInRDBMS>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Num_personas" id="99825761-4D03-5079-D5B3-AF5F93815DF6">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 18:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Capacidad de persoas]]></commentInRDBMS>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Equipamiento" id="329527F0-46DB-2E0D-E51F-7E7F62067010">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:27:13 UTC</createdTime>
+<generatorID>5F0233AB-BC2A-DE35-C0D0-DAB6543AFD1F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<referedAttribute>EB7FD382-C488-C567-1CAF-E503935531CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="458A424C-BCEB-8EBD-BAAD-41F32BBAF82A" name="Bungalows PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-01-30 18:56:06 UTC</createdTime>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<engineerTo>
+<item key="888CF4EA-15E6-0686-0DC3-FD0B1CE44C58" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D5AAD6C3-A510-E51C-34AE-17274C708F79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

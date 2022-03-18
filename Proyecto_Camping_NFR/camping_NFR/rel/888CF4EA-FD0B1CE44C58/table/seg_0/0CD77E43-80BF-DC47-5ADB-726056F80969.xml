@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CD77E43-80BF-DC47-5ADB-726056F80969" name="Forma_pago">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>65EADD0D-5665-167D-5CD7-F03D8F8981D8</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_pago" id="46F55371-FA73-705C-BA29-69FEE0C3027C">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>897CB0D8-E8FD-8EAD-9611-4CC13E7024EF</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_pago" id="7B21D586-A3E1-7789-7338-95D42AC4FFC3">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>446C8560-4BE7-DD58-C3A0-14095D27389D</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Taansferencia_Num_cuenta" id="54374A47-DA04-CC09-DCBB-1531DC8F98B2">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>334C4D4C-27C4-B5E8-6B6F-B4375AC3B96F</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0D142D8-A1E3-DE5E-1997-AC2B719407A0" referredColumn="2B51A5BB-4612-92C4-7747-3269AEE73590"/>
+</associations>
+</Column>
+<Column name="Tarjeta_credito_numero_tarjeta" id="6BA8079B-6AB1-8691-51ED-63358A2884F3">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>9A955AC3-680E-5664-EE73-61B85F5258E9</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D0E42D2-56C5-BBC9-5B59-27A35F8D5671" referredColumn="C44E3AE1-1B0D-817D-AEB5-15D8B24CE0B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38D57941-FA2B-0CDD-C388-2EED1EA33800" name="Forma_pago_PK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>76BC1450-1408-5B1C-BB4B-8C0B905FED3D</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46F55371-FA73-705C-BA29-69FEE0C3027C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD148382-E11B-0E21-48B8-782C68834F94" name="Forma_pago_Taansferencia_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>2E6C4C04-0512-E2E4-B0D7-A6C4D936BF95</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54374A47-DA04-CC09-DCBB-1531DC8F98B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5DAB468-2A50-4471-770F-9EFD369DDA7B" name="Forma_pago_Tarjeta_credito_FK">
+<createdBy>NFR</createdBy>
+<createdTime>2022-03-17 19:30:09 UTC</createdTime>
+<generatorID>869B9251-5116-FC53-B719-BAA1F320E39A</generatorID>
+<ownerDesignName>camping_NFR</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BA8079B-6AB1-8691-51ED-63358A2884F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
